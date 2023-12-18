@@ -1,6 +1,4 @@
 .dia1{
-    width: 250px;
-    height: 250px;
     border: 1px solid black;
     background: rgb(14,106,172);
     background: linear-gradient(60deg, rgba(14,106,172,1) 0%, rgba(29,116,253,1) 50%, rgba(133,177,246,1) 100%);
@@ -107,4 +105,5 @@
 
 .dia1 .dia1_cont_texto p{
     font-size: 23px;
-}
+} 
+

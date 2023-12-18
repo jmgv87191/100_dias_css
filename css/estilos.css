@@ -1,3 +1,6 @@
+@import url('dia1.css');
+@import url('dia2.css');
+
 html, body{
     margin: 0;
     padding: 0;
@@ -14,7 +17,8 @@ h1{
     height: auto;
     position: relative;
     top: 16vh;
-    background-color: red;
+    background: rgb(152,152,152);
+    background: linear-gradient(60deg, rgba(152,152,152,1) 50%, rgba(245,245,245,1) 100%);
 }
 
 .cont_dias{
@@ -23,21 +27,21 @@ h1{
     border: 1px solid black;
     padding: 30px;
     display: grid;
-    grid-template-columns: minmax(300px,1fr) minmax(300px,1fr) minmax(300px,1fr) ;
+    grid-template-columns: minmax(300px,300px) minmax(300px,300px) minmax(300px,300px) ;
     gap: 10px;
-    
+    justify-content: center;
 }
 
 @media ( width < 1000px ){
     .cont_dias{
-        grid-template-columns: minmax(300px,1fr) minmax(300px,1fr) ;
+        grid-template-columns: minmax(300px,300px) minmax(300px,300px) ;
 
     }
 }
 
 @media ( width < 670px ){
     .cont_dias{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 300px ;
 
     }
 }
@@ -48,3 +52,6 @@ h1{
     z-index: 1;
     background-color: antiquewhite;
 }
+
+
+
