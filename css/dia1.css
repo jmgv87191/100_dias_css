@@ -1,0 +1,110 @@
+.dia1{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background: rgb(14,106,172);
+    background: linear-gradient(60deg, rgba(14,106,172,1) 0%, rgba(29,116,253,1) 50%, rgba(133,177,246,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cien {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cien .dia1_uno{
+    width: 12%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);    
+    z-index: 2;
+}
+
+.cien .dia1_detalle{
+    width: 10%;
+    height: 35%;
+    background: white;
+    position: absolute;
+    border-radius: 5px;
+    left: -3%;
+    top: 10%;
+    transform: rotate(50deg);
+}
+
+.cien .dia1_cero1{
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);    z-index: 2;
+    z-index: 1;
+
+}
+
+.cien .dia1_cero1::after{
+    content: "";
+    width: 55%;
+    height: 55%;
+    background: rgb(14,106,172);
+    background: linear-gradient(60deg, rgba(14,106,172,1) 0%, rgba(29,116,253,1) 50%, rgba(133,177,246,1) 100%);
+    border-radius: 50%;
+}
+
+
+.cien .dia1_cero2{
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+}
+
+.cien .dia1_cero2::after{
+    content: "";
+    width: 50%;
+    height: 50%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(60deg, rgba(14,106,172,1) 0%, rgba(29,116,253,1) 50%, rgba(133,177,246,1) 100%);
+    border-radius: 50%;
+}
+
+.dia1_cont_texto{
+    display: flex;
+    height: 50%;
+    width: 80%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+}
+
+.dia1 .dia1_cont_texto h1{
+    font-size: 70px;
+}
+
+.dia1 .dia1_cont_texto p{
+    font-size: 23px;
+}
