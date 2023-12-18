@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    
 }
 
 .dia2_barra{
@@ -22,12 +23,29 @@
     border-radius: 5px;
 }
 
-.dia2_contenedor:hover{
-    animation: mover 1s linear;
-}
+@keyframes mover_top {
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
 
-@keyframes mover {
-    to{
-        transform: translateY(10px);
+    100%{
+        transform: translateY(15px) rotate(45deg);
     }
 }
+
+
+@keyframes mover_bottom {
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+
+    100%{
+        transform: translateY(-15px) rotate(-45deg);
+    }
+} 
