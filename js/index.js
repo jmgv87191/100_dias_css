@@ -1,12 +1,10 @@
-let dia2_contenedor = document.querySelector('.dia2_contenedor');
-let dia2_barra2 = document.querySelector('.dia2_barra2');
-let dia2_barra1 = document.querySelector('.dia2_barra1');
-let dia2_barra3 = document.querySelector('.dia2_barra3');
+let menu_dia2 = document.querySelector('.dia2_contenedor');
+let dia2_lineTop = document.querySelector('.dia2_linea1')
+let dia2_line = document.querySelector('.dia2_linea2')
+let dia2_lineBottom = document.querySelector('.dia2_linea3')
 
-
-dia2_contenedor.addEventListener('click',()=>{
-    dia2_barra2.setAttribute("style","visibility: hidden;")
-    dia2_barra1.setAttribute("style","animation: mover_top 300ms linear forwards;")
-    dia2_barra3.setAttribute("style","    animation: mover_bottom 300ms linear forwards;")
-
+menu_dia2.addEventListener('click',()=>{
+    dia2_lineTop.classList.toggle('dia2_top');
+    dia2_line.classList.toggle('dia2_centro');
+    dia2_lineBottom.classList.toggle('dia2_bottom');
 })

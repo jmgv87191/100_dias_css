@@ -1,50 +1,121 @@
-.cont_dias .dia2{
-    background: rgb(25, 199, 170);
+.dia2{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    background-color: #3faf82 !important;
 }
 
 .dia2_contenedor{
-    width: 15%;
-    height: 15%;
+    aspect-ratio: 1/1;
+    width: 6vh;
     display: flex;
     flex-direction: column;
+    gap: 7px;
+    align-items: center;
     justify-content: center;
-    gap: 10px;
+    cursor: pointer;
 }
 
-.dia2_barra{
+.dia2_span{
     width: 100%;
-    height: 5px;
-    background-color: white;
-    border-radius: 5px;
+    height: 10%;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    filter: drop-shadow(1px 1px 10px #0000004f);
 }
 
-@keyframes mover_top {
+/* reverse */
+
+.dia2_linea3{
+    animation: bottomRev 700ms ease-in-out backwards;
+}
+
+@keyframes bottomRev{
     0%{
-        transform: translateY(5px);
+        transform: translateY(-255%)rotate(135deg);
     }
     50%{
-        transform: translateY(15px);
+        transform: translateY(-225%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.dia2_linea2{
+    animation: centroRev 700ms ease-in-out forwards;
+}
+
+@keyframes centroRev{
+    0%, 50%{
+        scale: 0;
     }
 
     100%{
-        transform: translateY(15px) rotate(45deg);
+        scale: 1;
     }
 }
 
+.dia2_linea1{
+    animation: topRev 700ms ease-in-out forwards;
+}
 
-@keyframes mover_bottom {
+
+@keyframes topRev{
     0%{
-        transform: translateY(-5px);
+        transform: translateY(225% ) rotate(45deg) ;
+
     }
     50%{
-        transform: translateY(-15px);
+        transform: translateY(225%);
     }
-
     100%{
-        transform: translateY(-15px) rotate(-45deg);
+        transform: translateY(0%);
     }
-} 
+}
+/* ! reverse */
+
+.dia2_top{
+    animation: dia2_top 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_top{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: translateY(225%);
+    }
+    100%{
+        transform: translateY(225%) rotate(45deg);
+    }
+}
+
+.dia2_centro{
+    animation: dia2_centro 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_centro {
+    0%{
+        scale: 1;
+    }
+    50%, 100%{
+        scale: 0;
+    }
+}
+
+.dia2_bottom{
+    animation:  dia2_bottom 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_bottom{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: translateY(-225%);
+    }
+    100%{
+        transform: translateY(-225%) rotate(135deg);
+    }
+}
