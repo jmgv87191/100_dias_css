@@ -1,121 +1,121 @@
 .dia2{
+    background-color: rgb(30, 210, 141) !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3faf82 !important;
 }
 
 .dia2_contenedor{
-    aspect-ratio: 1/1;
-    width: 6vh;
+    width: 20%;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    gap: 7px;
-    align-items: center;
     justify-content: center;
-    cursor: pointer;
+    gap: 10px;
+    align-items: center;
 }
 
 .dia2_span{
     width: 100%;
-    height: 10%;
-    background-color: antiquewhite;
-    border-radius: 6px;
-    filter: drop-shadow(1px 1px 10px #0000004f);
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
-/* reverse */
-
-.dia2_linea3{
-    animation: bottomRev 700ms ease-in-out backwards;
-}
-
-@keyframes bottomRev{
-    0%{
-        transform: translateY(-255%)rotate(135deg);
-    }
-    50%{
-        transform: translateY(-225%);
-    }
-    100%{
-        transform: translateY(0%);
-    }
-}
-
-.dia2_linea2{
-    animation: centroRev 700ms ease-in-out forwards;
-}
-
-@keyframes centroRev{
-    0%, 50%{
-        scale: 0;
-    }
-
-    100%{
-        scale: 1;
-    }
-}
-
-.dia2_linea1{
-    animation: topRev 700ms ease-in-out forwards;
-}
-
-
-@keyframes topRev{
-    0%{
-        transform: translateY(225% ) rotate(45deg) ;
-
-    }
-    50%{
-        transform: translateY(225%);
-    }
-    100%{
-        transform: translateY(0%);
-    }
-}
-/* ! reverse */
-
-.dia2_top{
+.dia2_linea1_{
     animation: dia2_top 700ms ease-in-out forwards;
 }
 
 @keyframes dia2_top{
     0%{
-        transform: rotate(0deg);
+        transform: translateY(0px);
     }
     50%{
-        transform: translateY(225%);
+        transform: translateY(15px);
     }
     100%{
-        transform: translateY(225%) rotate(45deg);
+        transform: translateY(15px) rotate(45deg);
     }
 }
 
-.dia2_centro{
+.dia2_linea1_reverse{
+    animation: dia2_top_reverse 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_top_reverse{
+    0%{
+        transform: translateY(15px) rotate(45deg);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+
+.dia2_linea2_{
     animation: dia2_centro 700ms ease-in-out forwards;
 }
 
-@keyframes dia2_centro {
-    0%{
-        scale: 1;
-    }
-    50%, 100%{
-        scale: 0;
-    }
-}
+@keyframes dia2_centro{
 
-.dia2_bottom{
-    animation:  dia2_bottom 700ms ease-in-out forwards;
-}
-
-@keyframes dia2_bottom{
-    0%{
-        transform: rotate(0deg);
+    0%,50%{
+        transform: scale(1);
     }
-    50%{
-        transform: translateY(-225%);
+
+    51%{
+        transform: scale(0);
     }
     100%{
-        transform: translateY(-225%) rotate(135deg);
+        transform: scale(0);
     }
 }
+
+.dia2_linea2_reverse{
+    animation: dia2_centro_reverse 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_centro_reverse{
+
+    0%,50%{
+        transform: scale(0) ;
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+.dia2_linea3_{
+    animation: dia2_bottom 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_bottom {
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(-15px) rotate(135deg) ;
+    }
+}
+
+.dia2_linea3_reverse{
+    animation: dia2_bottom_reverse 700ms ease-in-out forwards;
+}
+
+@keyframes dia2_bottom_reverse {
+    0%{
+        transform: translateY(-15px) rotate(135deg);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+} 
+
+
