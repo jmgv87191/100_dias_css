@@ -65,7 +65,10 @@
 .dia5_main_contenido_header{
     width: 100%;
     height: 15%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .dia5_main_contenido_main{
@@ -77,6 +80,8 @@
 .dia5_main_contenido_footer{
     width: 100%;
     height: 15%;
+    border: 1px solid red;
+    
 }
 
 ul{
@@ -85,7 +90,9 @@ ul{
     gap: 15px;
     justify-content: end;
     align-items: center;
-    border: 1px solid black;
+    height: 100%;
+    font-size: 12px;
+    gap: 15px;
 }
 
 li::before{
@@ -93,10 +100,12 @@ li::before{
     width: 15px;
     border-radius: 15px;
     height: 5px;
-    background-color: red;
+    background-color: blue;
     display: inline-block;
+    margin-right: 7px;
 }
 
 .dia5_header_contenido ul li:first-child::before {
-    background-color: rgb(16, 3, 3);  
+    background-color: rgb(255, 0, 0);  
+    margin-right: 7px;
 }
