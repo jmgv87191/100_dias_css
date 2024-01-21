@@ -1,0 +1,102 @@
+.dia5_contenedor{
+    background: rgb(5,137,76);
+    background: -moz-linear-gradient(215deg, rgba(5,137,76,1) 0%, rgba(8,190,136,1) 35%);
+    background: -webkit-linear-gradient(215deg, rgba(5,137,76,1) 0%, rgba(8,190,136,1) 35%);
+    background: linear-gradient(215deg, rgba(5,137,76,1) 0%, rgba(8,190,136,1) 35%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#05894c",endColorstr="#08be88",GradientType=1);    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia5_cont_reportes{
+    width: 90%;
+    height: 70%;
+    box-shadow: 10px 10px 24px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 24px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 24px -3px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.dia5_header{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(237, 158, 41);
+    padding: 5px 10px 0px 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dia5_titulo_completo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.dia5_titulo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dia5_titulo_costo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dia5_main{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.dia5_main_contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dia5_main_contenido_header{
+    width: 100%;
+    height: 15%;
+    border: 1px solid black;
+}
+
+.dia5_main_contenido_main{
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+.dia5_main_contenido_footer{
+    width: 100%;
+    height: 15%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid black;
+}
+
+li::before{
+    content: '';
+    width: 15px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: red;
+    display: inline-block;
+}
+
+.dia5_header_contenido ul li:first-child::before {
+    background-color: rgb(16, 3, 3);  
+}
