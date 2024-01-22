@@ -168,3 +168,12 @@ li::before{
     left: calc(100%/(6/6));
 }
 
+.dia5_linea_horizontal1{
+    width: 50px;
+    height: 1px;
+    background-color: rgb(203, 26, 26);
+    position: absolute;
+    top: 15px;
+    left: -5%;
+    transform: rotate(140deg);
+}
