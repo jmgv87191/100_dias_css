@@ -27,3 +27,12 @@ dia2_contenedor.addEventListener('click',()=>{
     }
 
 })
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+let dia5_circulo1 = document.querySelector('.dia5_circulo1');
+
+dia5_circulo1.addEventListener('mouseover',()=>{
+    dia5_circulo1.classList.add("mouseover1")
+})
