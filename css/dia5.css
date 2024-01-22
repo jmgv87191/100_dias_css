@@ -74,14 +74,14 @@
 .dia5_main_contenido_main{
     width: 100%;
     height: 70%;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dia5_main_contenido_footer{
     width: 100%;
-    height: 15%;
-    border: 1px solid red;
-    
+    height: 15%;    
 }
 
 ul{
@@ -109,3 +109,62 @@ li::before{
     background-color: rgb(255, 0, 0);  
     margin-right: 7px;
 }
+
+.dia5_grafica_roja{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.dia5_grafica_azul{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.dia5_punto_rojo{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dia5_punto_rojo1{
+    top: 110%;
+}
+
+.dia5_punto_rojo2{
+    top: 30%;
+    left: calc(100%/6);
+}
+
+.dia5_punto_rojo3{
+    top: 50%;
+    left: calc(100%/(6/2));
+}
+
+.dia5_punto_rojo4{
+    top: 30%;
+    left: calc(100%/(6/3));
+}
+
+.dia5_punto_rojo5{
+    top: 90%;
+    left: calc(100%/(6/4));
+}
+
+.dia5_punto_rojo6{
+    top: 110%;
+    left: calc(100%/(6/5));
+}
+
+.dia5_punto_rojo7{
+    top: 50%;
+    left: calc(100%/(6/6));
+}
+
