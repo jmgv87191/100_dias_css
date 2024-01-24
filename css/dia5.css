@@ -121,8 +121,127 @@ li::before{
 }
 
 .dia5_grafica_azul{
-    width: 100%;
+    width: 90%;
     height: 50%;
     border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
+.dia5_detalle1{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: -13px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.dia5_detalle2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -25px;
+    left: 24px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.dia5_detalle3{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -15px;
+    left: 64px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.dia5_detalle4{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -25px;
+    left: 104px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.dia5_detalle7{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 215px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.dia5_detalle5{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 145px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.dia5_detalle6{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 73, 73);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 184px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.desaparecer{
+    opacity: 1;
+    display: block;
+}

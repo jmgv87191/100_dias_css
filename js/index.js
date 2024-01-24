@@ -32,7 +32,81 @@ dia2_contenedor.addEventListener('click',()=>{
 /* //////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 let dia5_circulo1 = document.querySelector('.dia5_circulo1');
+let dia5_detalle1 = document.querySelector('.dia5_detalle1')
+
+let dia5_circulo2 = document.querySelector('.dia5_circulo2');
+let dia5_detalle2 = document.querySelector('.dia5_detalle2')
+
+let dia5_circulo3 = document.querySelector('.dia5_circulo3');
+let dia5_detalle3 = document.querySelector('.dia5_detalle3')
+
+let dia5_circulo4 = document.querySelector('.dia5_circulo4');
+let dia5_detalle4 = document.querySelector('.dia5_detalle4')
+
+let dia5_circulo6 = document.querySelector('.dia5_circulo6');
+let dia5_detalle6 = document.querySelector('.dia5_detalle6')
+
+let dia5_circulo7 = document.querySelector('.dia5_circulo7');
+let dia5_detalle7 = document.querySelector('.dia5_detalle7')
+
+let dia5_circulo5 = document.querySelector('.dia5_circulo5');
+let dia5_detalle5 = document.querySelector('.dia5_detalle5')
+
+let dia5_circulo8 = document.querySelector('.dia5_circulo8');
+let dia5_detalle8 = document.querySelector('.dia5_detalle8')
 
 dia5_circulo1.addEventListener('mouseover',()=>{
-    dia5_circulo1.classList.add("mouseover1")
+    dia5_detalle1.classList.add("desaparecer")
+})
+
+dia5_circulo1.addEventListener('mouseout',()=>{
+    dia5_detalle1.classList.remove("desaparecer")
+})
+
+dia5_circulo2.addEventListener('mouseover',()=>{
+    dia5_detalle2.classList.add("desaparecer")
+})
+
+dia5_circulo2.addEventListener('mouseout',()=>{
+    dia5_detalle2.classList.remove("desaparecer")
+})
+
+dia5_circulo3.addEventListener('mouseover',()=>{
+    dia5_detalle3.classList.add("desaparecer")
+})
+
+dia5_circulo3.addEventListener('mouseout',()=>{
+    dia5_detalle3.classList.remove("desaparecer")
+})
+
+dia5_circulo4.addEventListener('mouseover',()=>{
+    dia5_detalle4.classList.add("desaparecer")
+})
+
+dia5_circulo4.addEventListener('mouseout',()=>{
+    dia5_detalle4.classList.remove("desaparecer")
+})
+
+dia5_circulo5.addEventListener('mouseover',()=>{
+    dia5_detalle5.classList.add("desaparecer")
+})
+
+dia5_circulo5.addEventListener('mouseout',()=>{
+    dia5_detalle5.classList.remove("desaparecer")
+})
+
+dia5_circulo6.addEventListener('mouseover',()=>{
+    dia5_detalle6.classList.add("desaparecer")
+})
+
+dia5_circulo6.addEventListener('mouseout',()=>{
+    dia5_detalle6.classList.remove("desaparecer")
+})
+
+dia5_circulo7.addEventListener('mouseover',()=>{
+    dia5_detalle7.classList.add("desaparecer")
+})
+
+dia5_circulo7.addEventListener('mouseout',()=>{
+    dia5_detalle7.classList.remove("desaparecer")
 })
