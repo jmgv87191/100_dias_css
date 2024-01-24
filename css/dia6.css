@@ -1,0 +1,35 @@
+.dia6{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(209,95,1);
+    background: -moz-linear-gradient(215deg, rgba(209,95,1,1) 0%, rgba(232,196,63,1) 56%);
+    background: -webkit-linear-gradient(215deg, rgba(209,95,1,1) 0%, rgba(232,196,63,1) 56%);
+    background: linear-gradient(215deg, rgba(209,95,1,1) 0%, rgba(232,196,63,1) 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d15f01",endColorstr="#e8c43f",GradientType=1);
+}
+
+.dia6_contenedor{
+    width: 80%;
+    height: 80%;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+.dia6_cont_datos{
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia6_img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}

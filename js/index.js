@@ -55,6 +55,24 @@ let dia5_detalle5 = document.querySelector('.dia5_detalle5')
 let dia5_circulo8 = document.querySelector('.dia5_circulo8');
 let dia5_detalle8 = document.querySelector('.dia5_detalle8')
 
+let dia5_circulo9 = document.querySelector('.dia5_circulo9');
+let dia5_detalle9 = document.querySelector('.dia5_detalle9')
+
+let dia5_circulo10 = document.querySelector('.dia5_circulo10');
+let dia5_detalle10 = document.querySelector('.dia5_detalle10')
+
+let dia5_circulo11 = document.querySelector('.dia5_circulo11');
+let dia5_detalle11 = document.querySelector('.dia5_detalle11')
+
+let dia5_circulo12 = document.querySelector('.dia5_circulo12');
+let dia5_detalle12 = document.querySelector('.dia5_detalle12')
+
+let dia5_circulo13 = document.querySelector('.dia5_circulo13');
+let dia5_detalle13 = document.querySelector('.dia5_detalle13')
+
+let dia5_circulo14 = document.querySelector('.dia5_circulo14');
+let dia5_detalle14 = document.querySelector('.dia5_detalle14')
+
 dia5_circulo1.addEventListener('mouseover',()=>{
     dia5_detalle1.classList.add("desaparecer")
 })
@@ -109,4 +127,60 @@ dia5_circulo7.addEventListener('mouseover',()=>{
 
 dia5_circulo7.addEventListener('mouseout',()=>{
     dia5_detalle7.classList.remove("desaparecer")
+})
+
+dia5_circulo8.addEventListener('mouseover',()=>{
+    dia5_detalle8.classList.add("desaparecer")
+})
+
+dia5_circulo8.addEventListener('mouseout',()=>{
+    dia5_detalle8.classList.remove("desaparecer")
+})
+
+dia5_circulo9.addEventListener('mouseover',()=>{
+    dia5_detalle9.classList.add("desaparecer")
+})
+
+dia5_circulo9.addEventListener('mouseout',()=>{
+    dia5_detalle9.classList.remove("desaparecer")
+})
+
+dia5_circulo10.addEventListener('mouseover',()=>{
+    dia5_detalle10.classList.add("desaparecer")
+})
+
+dia5_circulo10.addEventListener('mouseout',()=>{
+    dia5_detalle10.classList.remove("desaparecer")
+})
+
+dia5_circulo11.addEventListener('mouseover',()=>{
+    dia5_detalle11.classList.add("desaparecer")
+})
+
+dia5_circulo11.addEventListener('mouseout',()=>{
+    dia5_detalle11.classList.remove("desaparecer")
+})
+
+dia5_circulo12.addEventListener('mouseover',()=>{
+    dia5_detalle12.classList.add("desaparecer")
+})
+
+dia5_circulo12.addEventListener('mouseout',()=>{
+    dia5_detalle12.classList.remove("desaparecer")
+})
+
+dia5_circulo13.addEventListener('mouseover',()=>{
+    dia5_detalle13.classList.add("desaparecer")
+})
+
+dia5_circulo13.addEventListener('mouseout',()=>{
+    dia5_detalle13.classList.remove("desaparecer")
+})
+
+dia5_circulo14.addEventListener('mouseover',()=>{
+    dia5_detalle14.classList.add("desaparecer")
+})
+
+dia5_circulo14.addEventListener('mouseout',()=>{
+    dia5_detalle14.classList.remove("desaparecer")
 })

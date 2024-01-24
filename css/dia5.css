@@ -241,7 +241,134 @@ li::before{
     color: white;
 }
 
+.dia5_detalle8{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -15px;
+    left: -13px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
+.dia5_detalle9{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
+.dia5_detalle10{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 65px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
+.dia5_detalle11{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -15px;
+    left: 105px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
+.dia5_detalle12{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -13px;
+    left: 145px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
+.dia5_detalle13{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 185px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
+.dia5_detalle14{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 111, 205);
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: 215px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 73% 75%, 51% 100%, 31% 75%, 0% 75%);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    padding: 5px 7px;
+
+}
+
 .desaparecer{
     opacity: 1;
     display: block;
 }
+
