@@ -104,15 +104,20 @@
     align-items: center;
     padding: 3px 40px;
     border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .dia6_btn:hover{
-    background-color: brown;
+    animation: dia6_btn_ani 300ms forwards ease-in-out ;
 }
 
-@keyframes{
+@keyframes dia6_btn_ani {
     100%{
-        
+        background-color: rgb(180, 106, 41);
+        border: 1px solid rgba(0, 0, 0, 0);
+        color: white;
+
     }
 }
 
