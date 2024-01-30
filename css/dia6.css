@@ -32,13 +32,15 @@
 }
 
 .dia6_cont_img{
-    width: 100%;
+    width: 60%;
     height: 40%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: 0;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .dia6_img{
@@ -46,23 +48,54 @@
     height: 70px;
     position: absolute;
     border-radius: 50%;
+    overflow: hidden;
 }
 
+
+
 .dia6_aro1{
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    position: absolute;
+    border-radius: 50%;
+    border-color:  rgba(129, 129, 129, 0.507)  rgba(129, 129, 129, 0.507)  rgba(129, 129, 129, 0.507)  transparent;
+}
+
+
+.dia6_animacion_aro1{
+    animation: dia6_animacion_aro1 1200ms forwards ease-in-out;
+}
+
+.dia6_animacion_aro2{
+    animation: dia6_animacion_aro2 1200ms forwards ease-in-out;
+}
+
+
+
+ @keyframes dia6_animacion_aro1{
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dia6_animacion_aro2{
+
+    100%{
+        transform: rotate(-360deg);
+    }
+} 
+
+
+
+.dia6_aro2{
     width: 75px;
     height: 75px;
     border: 2px solid rgb(60, 60, 60);
     position: absolute;
     border-radius: 50%;
-}
-
-.dia6_aro2{
-    width: 60px;
-    height: 60px;
-    border: 2px solid rgb(60, 60, 60);
-    position: absolute;
-    border-radius: 50%;
-
+    border-color:  rgba(129, 129, 129, 0.507)  transparent rgba(129, 129, 129, 0.507)   rgba(129, 129, 129, 0.507)  ;
 }
 
 .dia6_titulo{

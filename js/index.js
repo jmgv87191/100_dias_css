@@ -184,3 +184,33 @@ dia5_circulo14.addEventListener('mouseover',()=>{
 dia5_circulo14.addEventListener('mouseout',()=>{
     dia5_detalle14.classList.remove("desaparecer")
 })
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+let dia6_cont_img = document.querySelector('.dia6_cont_img');
+let dia6_aro1 = document.querySelector('.dia6_aro1');
+let dia6_aro2 = document.querySelector('.dia6_aro2');
+
+dia6_cont_img.addEventListener('mouseover',()=>{
+    dia6_aro1.classList.add("dia6_animacion_aro1")
+    dia6_aro1.classList.remove("dia6_animacion_aro2")
+
+})  
+
+dia6_cont_img.addEventListener('mouseout',()=>{
+
+    dia6_aro1.classList.remove("dia6_animacion_aro1")
+    dia6_aro1.classList.add("dia6_animacion_aro2")
+})
+
+dia6_cont_img.addEventListener('mouseover',()=>{
+    dia6_aro2.classList.add("dia6_animacion_aro2")
+    dia6_aro2.classList.remove("dia6_animacion_aro1")
+
+})  
+
+dia6_cont_img.addEventListener('mouseout',()=>{
+
+    dia6_aro2.classList.remove("dia6_animacion_aro2")
+    dia6_aro2.classList.add("dia6_animacion_aro1")
+})
