@@ -1,0 +1,371 @@
+.dia7_contenedor{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: contrast(15);
+    position: relative;
+}
+
+.dia7_centro{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 51%;
+    filter: blur(15px);
+    position: relative;
+}
+
+.dia7_ball-1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(123deg);
+}
+
+.dia7_ball-1:after{
+    animation: rotate 3s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 37px 37px;
+}
+
+.dia7_ball-2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(8deg);
+}
+
+.dia7_ball-2:after{
+    animation: rotate 3.2s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 40px 40px;
+    animation-delay: .5s;
+}
+
+.dia7_ball-3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(192deg);
+}
+
+.dia7_ball-3:after{
+    animation: rotate 3.2s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 37px 37px;
+    animation-delay: .4s;
+}
+
+.dia7_ball-4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(170deg);
+}
+
+.dia7_ball-4:after{
+    animation: rotate 3.2s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 30px 30px;
+    animation-delay: .6s;
+}
+
+.dia7_ball-5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(93deg);
+}
+
+.dia7_ball-5:after{
+    animation: rotate 3.5s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 37px 37px;
+    animation-delay: 1s;
+}
+
+.dia7_ball-6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(38deg);
+}
+
+.dia7_ball-6:after{
+    animation: rotate 3.7s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 40px 40px;
+    animation-delay: 1.2s;
+}
+
+.dia7_ball-7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(141deg);
+}
+
+.dia7_ball-7:after{
+    animation: rotate 3.9s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 35px 35px;
+    animation-delay: 1.4s;
+}
+
+.dia7_ball-8{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(58deg);
+}
+
+.dia7_ball-8:after{
+    animation: rotate 4.1s ease-in-out infinite;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: 37px 37px;
+    animation-delay: 1.6s;
+}
+
+
+/* circulos */
+
+.dia7_cicle-1{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    transform: rotate(114deg);
+}
+
+.dia7_cicle-1::after{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 58px 58px;
+    animation: rotate 3s ease-in-out infinite;
+    animation-delay: .2s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: rotate(280deg);
+}
+
+.dia7_cicle-2::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 30px 30px;
+    animation: rotate 3.2s ease-in-out infinite;
+    animation-delay: .4s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-3{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    transform: rotate(190deg);
+}
+
+.dia7_cicle-3::after{
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 30px 30px;
+    animation: rotate 3.4s ease-in-out infinite;
+    animation-delay: .6s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-4{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    transform: rotate(64deg);
+}
+
+.dia7_cicle-4::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 45px 45px;
+    animation: rotate 3.4s ease-in-out infinite;
+    animation-delay: .6s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-5{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    transform: rotate(90deg);
+}
+
+.dia7_cicle-5::after{
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 50px 50px;
+    animation: rotate 3.6s ease-in-out infinite;
+    animation-delay: .8s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-6{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    transform: rotate(350deg);
+}
+
+.dia7_cicle-6::after{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 35px 35px;
+    animation: rotate 3.8s ease-in-out infinite;
+    animation-delay: 1s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-7{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    transform: rotate(300deg);
+}
+
+.dia7_cicle-7::after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 38px 38px;
+    animation: rotate 4.2s ease-in-out infinite;
+    animation-delay: 1.4s;
+    filter: blur(3px);
+}
+
+.dia7_cicle-8{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: rotate(220deg);
+}
+
+.dia7_cicle-8::after{
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 50%;
+    transform-origin: 42px 42px;
+    animation: rotate 4.4s ease-in-out infinite;
+    animation-delay: 1.6s;
+    filter: blur(3px);
+}
+
+/* circulos */
+
+/* animacion */
+
+    @keyframes rotate {
+        from{
+            transform: rotate(0 deg) translate3d(0,0,0) ;
+        }to{
+            transform: rotate(360deg) translate3d(0,0,0);
+        }
+    }
+
+/* animacion */
